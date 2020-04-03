@@ -1,0 +1,196 @@
+{
+  "format": 1,
+  "restore": {
+    "E:\\Shilpa\\PVMS\\PVMS.Businesslayer\\PVMS.Businesslayer.csproj": {}
+  },
+  "projects": {
+    "E:\\Shilpa\\PVMS\\PVMS.Businesslayer\\PVMS.Businesslayer.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "E:\\Shilpa\\PVMS\\PVMS.Businesslayer\\PVMS.Businesslayer.csproj",
+        "projectName": "PVMS.Businesslayer",
+        "projectPath": "E:\\Shilpa\\PVMS\\PVMS.Businesslayer\\PVMS.Businesslayer.csproj",
+        "packagesPath": "C:\\Users\\SHINE\\.nuget\\packages\\",
+        "outputPath": "E:\\Shilpa\\PVMS\\PVMS.Businesslayer\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\SHINE\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.2"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.2": {
+            "projectReferences": {
+              "E:\\Shilpa\\PVMS\\PVMS.DataLayer\\PVMS.DataLayer.csproj": {
+                "projectPath": "E:\\Shilpa\\PVMS\\PVMS.DataLayer\\PVMS.DataLayer.csproj"
+              },
+              "E:\\Shilpa\\PVMS\\PVMS.Entities\\PVMS.Entities.csproj": {
+                "projectPath": "E:\\Shilpa\\PVMS\\PVMS.Entities\\PVMS.Entities.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.2": {
+          "dependencies": {
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.2.0, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.200\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "E:\\Shilpa\\PVMS\\PVMS.DataLayer\\PVMS.DataLayer.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "E:\\Shilpa\\PVMS\\PVMS.DataLayer\\PVMS.DataLayer.csproj",
+        "projectName": "PVMS.DataLayer",
+        "projectPath": "E:\\Shilpa\\PVMS\\PVMS.DataLayer\\PVMS.DataLayer.csproj",
+        "packagesPath": "C:\\Users\\SHINE\\.nuget\\packages\\",
+        "outputPath": "E:\\Shilpa\\PVMS\\PVMS.DataLayer\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\SHINE\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.2"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.2": {
+            "projectReferences": {
+              "E:\\Shilpa\\PVMS\\PVMS.Entities\\PVMS.Entities.csproj": {
+                "projectPath": "E:\\Shilpa\\PVMS\\PVMS.Entities\\PVMS.Entities.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.2": {
+          "dependencies": {
+            "FluentNHibernate": {
+              "target": "Package",
+              "version": "[2.1.2, )"
+            },
+            "Microsoft.Extensions.DependencyInjection.Abstractions": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.2.0, )",
+              "autoReferenced": true
+            },
+            "MySql.Data": {
+              "target": "Package",
+              "version": "[8.0.19, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.200\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "E:\\Shilpa\\PVMS\\PVMS.Entities\\PVMS.Entities.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "E:\\Shilpa\\PVMS\\PVMS.Entities\\PVMS.Entities.csproj",
+        "projectName": "PVMS.Entities",
+        "projectPath": "E:\\Shilpa\\PVMS\\PVMS.Entities\\PVMS.Entities.csproj",
+        "packagesPath": "C:\\Users\\SHINE\\.nuget\\packages\\",
+        "outputPath": "E:\\Shilpa\\PVMS\\PVMS.Entities\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\SHINE\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.2"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.2": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.2": {
+          "dependencies": {
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.2.0, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.200\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
